@@ -5,19 +5,7 @@ int b = int.Parse(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int c = int.Parse(Console.ReadLine());
 int max = a;
-if (max < b);
-{
-    Console.Write($"max = {b}");
-}
-else
-{
-    Console.Write($"max = {max}");
-}
-if (max < c)
-{
-    Console.Write($"max = {c}");
-}
-else
-{
-    Console.Write($"max = {max}");
-}
+if (a > max) max = a;
+if (b > max) max = b;
+if (c > max) max = c;
+Console.Write(max);
