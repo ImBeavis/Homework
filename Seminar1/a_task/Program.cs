@@ -2,7 +2,7 @@
 int a = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
-if (a < b);
+if (a < b)
 {
     Console.WriteLine($"max= {b}");
 }
