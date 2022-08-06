@@ -1,10 +1,10 @@
 ﻿Console.Write("введите число: ");
 int number = int.Parse(Console.ReadLine());
-if (number % 2 == 0);
+if (number % 2 == 0)
 {
-    Console.WriteLine("да");
+    Console.WriteLine($"{number} - да");
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine($"{number} - нет");
 }
