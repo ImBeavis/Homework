@@ -1,8 +1,15 @@
 ﻿Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
-while (number > 99)
+while (number > 999)
 {
-    number = number % 10;
-    Console.Write(number);
+    number = number / 10;
 }
-Console.Write("Третьей цифры нет");
+    if (number > 99)
+    {
+        number = number % 10;
+        Console.Write(number);
+    }
+    else 
+    {
+        Console.Write("Третьей цифры нет");
+    }
