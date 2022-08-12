@@ -1,0 +1,13 @@
+﻿Console.Write("Введите координату a1: ");
+int a1 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату b1: ");
+int b1 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату z1: ");
+int z1 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату a2: ");
+int a2 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату b2: ");
+int b2 = int.Parse(Console.ReadLine());
+Console.Write("Введите координату z2: ");
+int z2 = int.Parse(Console.ReadLine());
+Console.Write($"{Math.Sqrt(Math.Pow(a2 - a1, 2) + Math.Pow(b2 - b1, 2) + Math.Pow(z2 - z1, 2)):f2}");
